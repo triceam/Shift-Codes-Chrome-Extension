@@ -2,6 +2,8 @@
 
 This extension makes redeeming your Borderlands Shift codes faster and easier than ever.  If you find a Shift Code on the web, just select it, and then right-click and select `Redeem Shift Code`.
 
+<img src="screenshot.png" />
+
 A new Chrome tab will be opened to `https://shift.gearboxsoftware.com/rewards`, the shift code will be pasted into the `shift_code_input` input, and the form will be submitted.
 
 ## Assumptions

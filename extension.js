@@ -1,7 +1,7 @@
 var lastTabId = 0;
 var lastSelectionText = "";
 
-// handle context menu "clock" callback
+
 function handleContextClick(e, tab) {
   /*console.log("item " + e.menuItemId + " was clicked");
   console.log("info: " + JSON.stringify(e));
@@ -22,7 +22,6 @@ function handleContextClick(e, tab) {
   }
 }
 
-// handle tab loading
 // when the new tab is loaded, if it is the same one that was created from the 
 // context menu click, then inject the selected shift code *after* loading is complete
 chrome.tabs.onUpdated.addListener(function (tabId , info) {
@@ -35,8 +34,6 @@ chrome.tabs.onUpdated.addListener(function (tabId , info) {
       chrome.tabs.executeScript(tabId, {"code":script}, function (result){
         console.log("submitted");
       })
-      
-      
     }
   }
 });

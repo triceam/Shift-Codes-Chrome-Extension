@@ -1,0 +1,15 @@
+{
+  "name": "Shift Code Shortcut",
+  "version": "1.0",
+  "description": "Quickly redeem your Shift Codes!",
+  "manifest_version": 2,
+  "permissions": [
+    "contextMenus","tabs","https://shift.gearboxsoftware.com/"
+  ],
+  "background": {
+    "scripts": ["extension.js"]
+  },
+  "icons": {
+    "128": "boderlands_200x200.png"
+  }
+}

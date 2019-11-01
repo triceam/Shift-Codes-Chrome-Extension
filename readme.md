@@ -7,3 +7,7 @@ A new Chrome tab will be opened to `https://shift.gearboxsoftware.com/rewards`, 
 ## Assumptions
 
 This is a very simple Chrome extension.  It does not track behavior, and it does not handle any credentials.  In order for this to work, the extension assumes that you have already logged into `https://shift.gearboxsoftware.com/rewards`.  Note: GearBox will remember your login, so if you've logged in once, you don't have to log in every time.  
+
+## Open Source
+
+Source Code for this extension is available at https://github.com/triceam/Shift-Codes-Chrome-Extension
